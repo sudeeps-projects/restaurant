@@ -24,11 +24,24 @@
           <li>VIP Features</li>
           <li>Menu</li>
           <li>Delivery</li>
-          <li></li>
           <li>FAQ</li>
         </ul>
       </div>
+      <div class="nav-right">
+        <button>Sign Up</button>
+        <button>Log In</button>
+
+        <select id="countries" name="countries"></select>
+      </div>
     </header>
+    <main>
+      <div id="map"></div>
+    </main>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByShmR93WbT5PMIO6ZEtNRNgGAAY_jMto&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
     <script src="script.js"></script>
+    <script src="map.js"></script>
   </body>
 </html>
